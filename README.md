@@ -23,28 +23,6 @@ This repository contains a fully functional Retrieval-Augmented Generation (RAG)
 
 ---
 
-## Project Structure
-
-```
-rag-chatbot/
-│
-├── data/                     # Input documents
-├── embeddings/               # Stored FAISS index and embeddings
-├── app/
-│   ├── ingestion.py          # Document loading and cleaning
-│   ├── chunking.py           # Text splitter configuration
-│   ├── embeddings.py         # Embedding model setup
-│   ├── vectorstore.py        # FAISS index builder and saver
-│   ├── retriever.py          # Semantic search logic
-│   ├── rag_chain.py          # LangChain RAG pipeline
-│   └── api.py                # FastAPI server
-│
-├── main.py                   # End-to-end execution script
-└── requirements.txt
-```
-
----
-
 ## Installation
 
 ```
